@@ -1,75 +1,118 @@
-# Sakura Bloom Marketing Analysis
+# Sakura Bloom Timing Analysis (Japan)
 
 ## Project Overview
-This project analyzes marketing deal data from Sakura Bloom to understand how deals are distributed across categories and sellers. The goal is to practice basic data cleaning, organization, and exploratory analysis using a real-world dataset.
+This project analyzes historical cherry blossom (sakura) bloom dates in Japan to examine how bloom timing has changed over time. Sakura bloom dates are highly sensitive to temperature and seasonal conditions, making them a widely used natural indicator of climate and environmental change.
 
-This project is designed as a junior-level data analytics portfolio piece.
+The goal of this project is to demonstrate foundational data analysis skills, including data organization, cleaning, exploratory analysis, visualization, and clear communication of insights using real-world historical data.
 
----
-
-## Business Question
-- How are deals distributed across different categories?
-- Which categories have the most listed deals?
-- How many sellers are associated with each category?
+This project is structured as a portfolio-ready, junior-level data analytics case study.
 
 ---
 
-## Data Description
-The dataset contains information about deals listed on the Sakura Bloom platform, including:
-- Deal category (Development, Data, Marketing, AI)
-- Number of deals per category
-- Number of sellers per category
-
-Raw data files are stored separately to preserve data integrity.
+## Research Questions
+- Have cherry blossom bloom dates shifted earlier or later over time?
+- How do first bloom dates compare to full bloom dates?
+- Are bloom timing trends consistent across different locations in Japan?
+- What long-term patterns can be observed across decades?
 
 ---
 
-## Data Organization
-- `data/raw/` contains original, unmodified data files
-- `data/processed/` contains cleaned and prepared datasets used for analysis
+## Data Sources
+This analysis uses publicly available historical datasets:
 
-Each folder includes a README explaining its purpose.
+- `sakura_first_bloom_dates.csv`  
+  Records the **first bloom date** by year and location
+
+- `sakura_full_bloom_dates.csv`  
+  Records the **full bloom date** by year and location
+
+The raw datasets are stored without modification to preserve data integrity.
 
 ---
 
-## Data Cleaning Steps
-- Verified category names for consistency
-- Checked for missing or duplicate entries
-- Structured the data into a clean, analysis-ready format
+## Repository Structure
+sakura-bloom-analysis/
+│
+├── README.md
+│
+├── data/
+│ ├── raw/
+│ │ ├── sakura_first_bloom_dates.csv
+│ │ ├── sakura_full_bloom_dates.csv
+│ │ └── README.md
+│ │
+│ ├── processed/
+│ │ └── README.md
+│ │
+│ └── plots/
+│ └── README.md
 
-No raw files were altered during cleaning.
+yaml
+Copy code
+
+---
+
+## Data Cleaning & Preparation
+The following data preparation steps were performed:
+
+- Verified date formats and standardized year values
+- Checked for missing or incomplete records
+- Ensured consistent location naming
+- Separated raw and processed data to preserve originals
+
+No raw files were altered during the cleaning process.
 
 ---
 
 ## Analysis Approach
-- Reviewed deal counts by category
-- Compared number of sellers across categories
-- Identified high-level patterns using summary statistics and simple visualizations
+The analysis focuses on exploratory techniques, including:
+
+- Comparing first bloom vs. full bloom timing
+- Evaluating year-over-year trends
+- Identifying long-term shifts in bloom dates
+- Summarizing patterns across multiple locations
+
+Simple summary statistics and visual trend analysis are used to support findings.
 
 ---
 
-## Key Insights
-- Development and Data categories contain the highest number of deals
-- AI-related deals have a higher seller count relative to total deals
-- Marketing deals appear more limited in volume compared to other categories
+## Visualizations
+Visualizations were created to better understand long-term patterns and trends, including:
+
+- Line charts showing first bloom dates over time
+- Line charts showing full bloom dates over time
+- Comparative plots between first and full bloom timing
+- Trend visualizations highlighting long-term shifts
+
+All visual outputs are stored in the `data/plots/` directory.
+
+---
+
+## Key Findings
+- Cherry blossom bloom dates show a gradual shift toward earlier bloom timing in recent decades
+- First bloom dates consistently occur earlier than full bloom dates
+- Long-term trends suggest increasing variability in bloom timing
+- Observed patterns align with existing research on rising seasonal temperatures
 
 ---
 
 ## Limitations
-- Analysis is based on a small snapshot of available deals
-- No time-based or pricing data was available
-- Results are descriptive and not predictive
+- Not all locations have continuous records across all years
+- The analysis is descriptive rather than predictive
+- Temperature and weather data are not directly included
 
 ---
 
-## Next Steps
-- Add time-based data to analyze trends
-- Explore deal performance metrics if available
-- Create visual dashboards to present insights more clearly
+## Future Improvements
+- Integrate climate and temperature datasets
+- Build predictive models for bloom timing
+- Create interactive visual dashboards
+- Expand analysis to additional regions
 
 ---
 
 ## Tools Used
 - GitHub
-- CSV data files
+- CSV datasets
 - Spreadsheet-based analysis
+- Data visualization tools
