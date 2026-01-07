@@ -8,7 +8,7 @@ Key outputs include trend visualizations, comparisons between first and full blo
 ---
 
 ## Visualization
-data/first_bloom_trend.png.png
+data/first_bloom_trend.png
 
 ---
 
