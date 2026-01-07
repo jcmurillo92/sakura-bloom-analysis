@@ -7,6 +7,11 @@ Key outputs include trend visualizations, comparisons between first and full blo
 
 ---
 
+## Visualization
+![First Cherry Blossom Bloom Dates Over Time (Kyoto, Japan)](first_bloom_trend.png)
+
+---
+
 ## Project Overview
 This project examines historical cherry blossom (sakura) bloom dates in Japan to understand how bloom timing has changed over time. Sakura bloom dates are highly sensitive to temperature and seasonal conditions, making them a widely recognized natural indicator of climate and environmental change.
 
