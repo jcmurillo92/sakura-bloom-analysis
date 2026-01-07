@@ -8,7 +8,7 @@ Key outputs include trend visualizations, comparisons between first and full blo
 ---
 
 ## Visualization
-[data/first_bloom_trend.png](https://github.com/jcmurillo92/sakura-bloom-analysis/blob/1fe3cdc7976f0790b3274e2030a1ae6ec2608665/data/first_bloom_trend.png)
+<img width="857" height="678" alt="first_bloom_trend (2)" src="https://github.com/user-attachments/assets/427354d4-331c-43bb-89b3-3581581483cc" />
 
 ---
 
