@@ -1,4 +1,4 @@
-# Sakura Bloom Timing Analysis (Japan)
+# Cherry Blossom Bloom Timing Analysis (Kyoto, Japan)
 
 ## Project Preview
 This project analyzes over a century of historical cherry blossom (sakura) bloom data across multiple locations in Japan to identify long-term shifts in seasonal timing.
