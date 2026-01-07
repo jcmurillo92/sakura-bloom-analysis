@@ -8,7 +8,7 @@ Key outputs include trend visualizations, comparisons between first and full blo
 ---
 
 ## Visualization
-![First Cherry Blossom Bloom Dates Over Time (Kyoto, Japan)](first_bloom_trend.png)
+![First Cherry Blossom Bloom Dates Over Time (Kyoto, Japan)](first_bloom_trend.png.png)
 
 ---
 
